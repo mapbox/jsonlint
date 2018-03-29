@@ -18,9 +18,6 @@
     "url": "http://github.com/mapbox/jsonlint/issues"
   },
   "main": "lib/jsonlint.js",
-  "bin": {
-    "jsonlint": "lib/cli.js"
-  },
   "engines": {
     "node": ">= 0.6"
   },
