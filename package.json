@@ -30,5 +30,6 @@
   "scripts": {
     "test": "node test/all-tests.js"
   },
-  "optionalDependencies": {}
+  "optionalDependencies": {},
+  "license": "MIT"
 }
