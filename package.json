@@ -14,6 +14,7 @@
     "type": "git",
     "url": "git://github.com/mapbox/jsonlint.git"
   },
+  "license": "MIT",
   "bugs": {
     "url": "http://github.com/mapbox/jsonlint/issues"
   },
