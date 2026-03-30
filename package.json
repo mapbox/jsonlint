@@ -9,7 +9,6 @@
     "jsonlint"
   ],
   "version": "2.0.2",
-  "preferGlobal": true,
   "repository": {
     "type": "git",
     "url": "git://github.com/mapbox/jsonlint.git"
@@ -19,16 +18,14 @@
   },
   "main": "lib/jsonlint.js",
   "engines": {
-    "node": ">= 0.6"
+    "node": ">= 22"
   },
   "dependencies": {},
   "devDependencies": {
-    "test": "*",
-    "jison": "*",
-    "uglify-js": "*"
+    "jison": "0.4.18",
+    "uglify-js": "3.19.3"
   },
   "scripts": {
-    "test": "node test/all-tests.js"
-  },
-  "optionalDependencies": {}
+    "test": "node test/all-tests.js && node test/strict-mode.mjs"
+  }
 }
